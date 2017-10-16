@@ -10,3 +10,11 @@ De som har konsentrasjonvansker kan få beskjed om å ta pause.
 Siden hver enkelt bruker har egen profil, så kan man legge opp til relevante sider/linker/dokumenter fra samme lærer (eller andre) 
 med informasjon som kan relateres til søket som ble gjort.
 Litt som en smart Google for institusjoner. Hvor hver student har en profil.
+
+
+//Forslag til tema//
+ ------------------------------------------------------------
+ Likestilling
+ Borgerlønn
+ Darkweb
+ Narkotika - Studentdop
