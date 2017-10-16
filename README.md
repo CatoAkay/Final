@@ -16,6 +16,5 @@ Litt som en smart Google for institusjoner. Hvor hver student har en profil.
  ------------------------------------------------------------
  Likestilling
  Borgerlønn
- Darkweb
  Narkotika - Studentdop
- 
+ Genmodifisering
