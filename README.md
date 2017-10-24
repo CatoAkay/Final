@@ -18,3 +18,4 @@ Litt som en smart Google for institusjoner. Hvor hver student har en profil.
  Borgerlønn
  Narkotika - Studentdop
  Genmodifisering
+ Mannlig helse
