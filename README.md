@@ -14,7 +14,6 @@ Litt som en smart Google for institusjoner. Hvor hver student har en profil.
 
 //Forslag til tema//
  ------------------------------------------------------------
- Likestilling
  Borgerlønn
  Narkotika - Studentdop
  Genmodifisering
