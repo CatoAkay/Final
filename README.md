@@ -18,3 +18,16 @@ Litt som en smart Google for institusjoner. Hvor hver student har en profil.
  Narkotika - Studentdop
  Genmodifisering
  Mannlig helse
+ 
+ 
+ // Utypdning av aktuelle temaer //
+ -------------------------------------------------------------
+    Mannlig Helse
+    - Lite hjelp å få
+    - Fysisk og mental helse
+    - Hvor man kan få Informasjon
+    - Er dette interesant? 
+    - Bare tekst er kjedelig - bedre: interaktivt
+    - Spørreundersøkelse på forhånd - refere til undersøkelsen 
+    - Statisk sentralbyrå
+--------------------------------------------------------------
