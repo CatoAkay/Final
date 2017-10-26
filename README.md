@@ -19,7 +19,8 @@ Litt som en smart Google for institusjoner. Hvor hver student har en profil.
  Genmodifisering
  Mannlig helse
  Start ups 
- Identietstyveri 
+ Identietstyveri
+ 
  
  
  // Utypdning av aktuelle temaer //
@@ -40,4 +41,14 @@ Litt som en smart Google for institusjoner. Hvor hver student har en profil.
 --------------------------------------------------------------
 -------------------------Star Ups-----------------------------
 - Nyskaping hindres pga manglede resurser og mye konkuranse 
-- Løsningen er en offentlig platform for start ups  
+- Løsningen er en offentlig platform for start ups 
+--------------------------------------------------------------
+-------------------------Genmodifisering(mat)----------------------
+-Maten folk kjøper, vet man ikke om er genmodifisert eller ikke 
+-Lage en nettside som gir deg informasjon om hvilket stoffer de forskjellige matvarene inneholder 
+-Folk vet ikke hva de får i seg av forskjllige stoffer 
+-Hva gjør de forskjellige stoffene - utfall - langvarig konsumering 
+
+-----------------------------------------------------------------
+---------------------------Studentdop----------------------------
+- 
