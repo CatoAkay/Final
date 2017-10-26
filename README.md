@@ -18,11 +18,12 @@ Litt som en smart Google for institusjoner. Hvor hver student har en profil.
  Narkotika - Studentdop
  Genmodifisering
  Mannlig helse
+ Start ups 
  
  
  // Utypdning av aktuelle temaer //
  -------------------------------------------------------------
-    Mannlig Helse
+ ------------------------Mannlig Helse------------------------
     - Lite hjelp å få
     - Fysisk og mental helse
     - Hvor man kan få Informasjon
@@ -30,4 +31,11 @@ Litt som en smart Google for institusjoner. Hvor hver student har en profil.
     - Bare tekst er kjedelig - bedre: interaktivt
     - Spørreundersøkelse på forhånd - refere til undersøkelsen 
     - Statisk sentralbyrå
+    
+    ------Annen måte å angripe denne oppgaven på -------
+    - Trening blant IT folk 
+    - Kosthold 
+    - 
 --------------------------------------------------------------
+-------------------------Star Ups-----------------------------
+- 
