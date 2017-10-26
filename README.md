@@ -19,6 +19,7 @@ Litt som en smart Google for institusjoner. Hvor hver student har en profil.
  Genmodifisering
  Mannlig helse
  Start ups 
+ Identietstyveri 
  
  
  // Utypdning av aktuelle temaer //
@@ -38,4 +39,5 @@ Litt som en smart Google for institusjoner. Hvor hver student har en profil.
     - 
 --------------------------------------------------------------
 -------------------------Star Ups-----------------------------
-- 
+- Nyskaping hindres pga manglede resurser og mye konkuranse 
+- Løsningen er en offentlig platform for start ups  
