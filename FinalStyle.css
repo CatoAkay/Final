@@ -60,6 +60,8 @@ img {
     font-size: 2.5em
 }
 
+
+/* For mobil og små skjermer!!!!! */
 @media only screen and (max-width: 768px) {
     
     .navElement{
