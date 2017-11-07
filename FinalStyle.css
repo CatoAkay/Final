@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    color: white; 
 }
 
 html, body {
@@ -7,27 +8,33 @@ html, body {
     margin: 0;
     padding: 0;
 }
-nav{
-  display: inline;
-  width: fit-content;
-  height: fit-content;
-  margin: 0;
-  padding: 0;
+
+header {
+    background-color: black; 
+    overflow: hidden;
 }
-ul{
-list-style-type: none;
-width: 80%;
-margin: 0;
-padding: 0;
+
+h1 {
+    margin: 0;
+    padding: 0; 
 }
-.home, .problem, .solution, .aboutus{
-  width: 20%;
-  margin: 0;
-  padding: 0;
+
+nav {
+    background-color: blue;
+    width: 80%; 
+    float:left;
 }
-.lang{
-text-align: right;
-width: 20%;
-margin: 0;
-padding: 0;
+
+.navElement{ 
+    height: auto; 
+    float: left; 
+    width: 25%; 
+    background-color: green; 
+}
+
+.lang {
+    background-color: yellow;
+    width: 20%; 
+    float:left;
+    text-align: right; 
 }
