@@ -14,11 +14,6 @@ header {
     overflow: hidden;
 }
 
-h1 {
-    margin: 0;
-    padding: 0; 
-}
-
 nav {
     background-color: blue;
     width: 80%; 
@@ -30,6 +25,10 @@ nav {
     float: left; 
     width: 25%; 
     background-color: green; 
+}
+
+img {
+    width: 50%; 
 }
 
 .lang {
