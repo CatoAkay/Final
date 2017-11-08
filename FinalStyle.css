@@ -92,7 +92,7 @@ aside *{
 }
 
 /* For mobil og små skjermer!!!!! */
-@media only screen and (max-width: 408px) {
+@media only screen and (max-width: 768px) {
 
     .navElement{
         float: none;
