@@ -11,77 +11,79 @@ html, body {
 
 header {
     background-image: url(headerbg2.jpg);
-    background-repeat: no-repeat; 
-    background-size: 100% 100%; 
-    overflow: hidden;  
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
 }
 
 h1{
-    font-size: 5em; 
+    font-size: 5em;
+    /*kan bruke text-align: center; og gjerne padding top.*/
 }
 
 nav {
     /*background-color: blue;*/
-    width: 80%; 
+    width: 80%;
     float:left;
+    /*nav'en må max være 20% av skjermens høyde*/
 }
 
-.navElement{ 
-    height: auto; 
-    float: left; 
-    width: 25%; 
+.navElement{
+    height: auto;
+    float: left;
+    width: 25%;
     /*background-color: green;*/
-    
+
 }
 
 a {
-    font-size: 2em; 
+    font-size: 2em;
 }
 
 img {
-    width: 50%; 
+    width: 50%;
 }
 
 .lang {
     /*background-color: yellow;*/
-    width: 20%; 
+    width: 20%;
     float:left;
-    text-align: right; 
+    text-align: right;
 }
 
 .lang2 {
-    visibility: hidden; 
-     
+    visibility: hidden;
+
 }
 
 .sprakactive {
-    color: red; 
-    font-weight: bolder; 
+    color: red;
+    font-weight: bolder;
     font-size: 2.5em
 }
 
 
 /* For mobil og små skjermer!!!!! */
 @media only screen and (max-width: 768px) {
-    
+
     .navElement{
         float: none;
-        width: auto; 
+        width: auto;
     }
-    
+
     .lang{
-        visibility: hidden; 
+        visibility: hidden;
     }
-    
+
     .lang2{
-        visibility: visible; 
-        width: 20%; 
+        visibility: visible;
+        width: 20%;
         float:left;
-        text-align: right; 
+        text-align: right;
     }
-    
+
     h1{
-        text-align: center; 
+        text-align: center;
     }
-    
+
     }
