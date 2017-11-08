@@ -62,7 +62,9 @@ img {
     font-weight: bolder;
     font-size: 2.5em
 }
-
+.s1{
+  width: 50%;
+}
 
 /* For mobil og små skjermer!!!!! */
 @media only screen and (max-width: 768px) {
