@@ -4,7 +4,7 @@
 }
 
 html, body {
-
+    width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -72,8 +72,7 @@ img {
 }
 
 aside{
-  position: fixed;
-  left: 0;
+  position: absolute;
   width: 50%;
   height: 100%;
   margin: 0;
@@ -85,16 +84,15 @@ aside *{
 }
 
 #asidepic{
-  position: fixed;
-  right: 0;
+  position: absolute;
   width: 50%;
   height: inherit;
-  margin: 0;
+  margin-left: 50%;
   padding: 0;
 }
 
 /* For mobil og små skjermer!!!!! */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 408px) {
 
     .navElement{
         float: none;
