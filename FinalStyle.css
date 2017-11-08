@@ -25,7 +25,8 @@ nav {
     /*background-color: blue;*/
     width: 80%;
     float:left;
-    /*nav'en må max være 20% av skjermens høyde*/
+    /*nav'en må max være 20% av skjermens høyde. Burde ha mørk/svart, men transparent bakgrunn på nav'en*/
+
 }
 
 .navElement{
