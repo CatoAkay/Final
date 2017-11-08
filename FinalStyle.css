@@ -62,9 +62,35 @@ img {
     font-weight: bolder;
     font-size: 2.5em
 }
+
+/* Må få sectionen til å få inn elementene */
 .s1{
+  display: block;
+  width: 100%;
+  height: auto;
+  background-color: yellow;
+}
+
+aside{
+  position: fixed;
+  left: 0;
   width: 50%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+aside *{
   color: black;
+}
+
+#asidepic{
+  position: fixed;
+  right: 0;
+  width: 50%;
+  height: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 /* For mobil og små skjermer!!!!! */
