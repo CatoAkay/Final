@@ -66,18 +66,18 @@ img {
 
 /* Må få sectionen til å få inn elementene */
 .s1{
-  display: block;
   width: 100%;
   height: auto;
   background-color: yellow;
 }
 
 aside{
-  position: absolute;
+  display: inline-block;
   width: 50%;
   height: auto;
   margin: 0;
   padding: 0;
+  vertical-align: top;
 }
 
 aside *{
@@ -85,11 +85,12 @@ aside *{
 }
 
 #asidepic{
-  position: absolute;
+  display: inline-block;
   width: 50%;
-  height: inherit;
-  margin-left: 50%;
+  height: 50%;
+  margin: 0;
   padding: 0;
+  vertical-align: top;
 }
 
 /* For mobil og små skjermer!!!!! */
@@ -98,7 +99,7 @@ aside *{
     .navElement{
         float: none;
         width: auto;
-        text-align: left; 
+        text-align: left;
     }
 
     .lang{
