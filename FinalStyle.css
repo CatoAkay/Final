@@ -48,23 +48,28 @@ header{
 
 .navElement{
     height: auto;
-    width: 25%;
+    width: 80%;
     text-align: center;
     /*background-color: green;*/
 
 }
 
 a {
-    font-size: 1.5em;
+    font-size: 1em;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .lang {
     /*background-color: yellow;*/
-    font-size: 1.5em;
+
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 1em;
     width: 20%;
-    float:left;
     text-align: right;
-    display: 'inline;'
 }
 
 .lang2 {
@@ -75,7 +80,7 @@ a {
 .sprakactive {
     color: red;
     font-weight: bolder;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 
@@ -114,7 +119,6 @@ aside *{
 @media only screen and (max-width: 768px) {
 
     .navElement{
-        float: none;
         width: auto;
         text-align: left;
     }
@@ -125,9 +129,7 @@ aside *{
 
     .lang2{
       display: inline;
-        visibility: visible;
         width: 20%;
-        float:left;
         text-align: right;
     }
 
