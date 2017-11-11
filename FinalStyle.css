@@ -1,3 +1,4 @@
+/* For alle sider*/
 *{
     box-sizing: border-box;
     color: #F5ED53;
@@ -9,29 +10,44 @@ html, body {
     padding: 0;
 }
 
-header {
-    background-image: url(headerbg2.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    overflow: hidden;
-}
-
 h1{
     font-size: 5em;
     /*kan bruke text-align: center; og gjerne padding top.*/
 }
 
-nav {
-    /*background-color: blue;*/
-    width: 80%;
-    float:left;
+header{
+  margin: 0;
+}
+#placeholder{
+  width: 100%;
+  height: 3em;
+  margin: 0;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+  nav{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 3em;
+    margin: 0;
+    background-color: black;
+    opacity: 0.75;
+    display: inline-flex;
+    display: -webkit-flex; /* Safari */
+    -webkit-justify-content: space-around; /* Safari 6.1+ */
+    justify-content: space-around;
+    z-index: 1;
+  }
     /*nav'en må max være 20% av skjermens høyde. Burde ha mørk/svart, men transparent bakgrunn på nav'en*/
 
 }
 
 .navElement{
     height: auto;
-    float: left;
     width: 25%;
     text-align: center;
     /*background-color: green;*/
@@ -39,30 +55,32 @@ nav {
 }
 
 a {
-    font-size: 2em;
-}
-
-img {
-    width: 50%;
+    font-size: 1.5em;
 }
 
 .lang {
     /*background-color: yellow;*/
+    font-size: 1.5em;
     width: 20%;
     float:left;
     text-align: right;
+    display: 'inline;'
 }
 
 .lang2 {
-    visibility: hidden;
+    display: none;
 
 }
 
 .sprakactive {
     color: red;
     font-weight: bolder;
-    font-size: 2.5em
+    font-size: 2em;
 }
+
+
+/*Hjemsiden*/
+
 
 /* Må få sectionen til å få inn elementene */
 .s1{
@@ -102,10 +120,11 @@ aside *{
     }
 
     .lang{
-        visibility: hidden;
+        display: none;
     }
 
     .lang2{
+      display: inline;
         visibility: visible;
         width: 20%;
         float:left;
