@@ -166,3 +166,19 @@ aside *{
       height: inherit;
       z-index: 1;
     }
+    
+    
+    /* Her fucker det seg til */
+    @media only screen and (max-width: 410px){
+        
+        .NavElement{
+             font-size: 10px; 
+        }
+        
+    }
+    
+    @media only screen and (max-width: 255px){
+        .NavElement{
+            font-size: 5px; 
+        }
+    }
