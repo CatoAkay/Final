@@ -1,6 +1,7 @@
+/* For alle sider*/
 *{
     box-sizing: border-box;
-    color: #F5ED53;
+    color: white;
 }
 
 html, body {
@@ -9,66 +10,105 @@ html, body {
     padding: 0;
 }
 
-header {
-    background-image: url(headerbg2.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    overflow: hidden;
-}
-
 h1{
     font-size: 5em;
     /*kan bruke text-align: center; og gjerne padding top.*/
 }
 
-nav {
-    /*background-color: blue;*/
-    width: 80%;
-    float:left;
+header{
+  margin: 0;
+}
+
+#placeholder{
+  width: 100%;
+  height: 3em;
+  margin: 0;
+  background-color: black;
+  top: 0;
+  z-index: 0;
+}
+
+  nav{
+    position: -webkit-sticky; /* Safari */
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 3em;
+    margin: 0;
+    background-color: black;
+    opacity: 0.75;
+    display: inline-flex;
+    -webkit-justify-content: space-around; /* Safari 6.1+ */
+    justify-content: space-around;
+    z-index: 1;
+  }
     /*nav'en må max være 20% av skjermens høyde. Burde ha mørk/svart, men transparent bakgrunn på nav'en*/
 
 }
 
-.navElement{
-    height: auto;
-    float: left;
-    width: 25%;
-    text-align: center;
-    /*background-color: green;*/
-
-}
-
 a {
-    font-size: 2em;
+  display: inline-block;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 1em;
+  width: 16.67%;
 }
 
-img {
-    width: 50%;
+.NavElement{
+  display: inline-block;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 1em;
+  width: 16.67%;
+  text-align: center;
+  word-wrap: break-word;
 }
 
 .lang {
     /*background-color: yellow;*/
-    width: 20%;
-    float:left;
+
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 1em;
+    width: 16.67%;
     text-align: right;
+    padding-right: 1%;
 }
 
 .lang2 {
-    visibility: hidden;
-
+    display: none;
 }
 
+.logodef{
+  display: inline-block;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 16.67%;
+  height: inherit;
+  z-index: 1;
+}
+
+.logomob{
+  display: none;
+}
 .sprakactive {
     color: red;
     font-weight: bolder;
-    font-size: 2.5em
+    font-size: 1em;
+    margin-top: auto;
+    margin-bottom: auto;
+
 }
+
+
+/*Hjemsiden*/
+
 
 /* Må få sectionen til å få inn elementene */
 .s1{
   width: 100%;
   height: auto;
-  background-color: yellow;
 }
 
 aside{
@@ -87,7 +127,7 @@ aside *{
 #asidepic{
   display: inline-block;
   width: 50%;
-  height: 50%;
+  height: 19.291em;
   margin: 0;
   padding: 0;
   vertical-align: top;
@@ -96,25 +136,49 @@ aside *{
 /* For mobil og små skjermer!!!!! */
 @media only screen and (max-width: 768px) {
 
-    .navElement{
-        float: none;
-        width: auto;
-        text-align: left;
-    }
 
     .lang{
-        visibility: hidden;
+        display: none;
     }
 
     .lang2{
-        visibility: visible;
-        width: 20%;
-        float:left;
-        text-align: right;
+      display: inline;
+      width: 16.67%;
+      text-align: right;
+      margin-top: auto;
+      margin-bottom: auto;
+      padding-right: 1%;
     }
 
     h1{
         text-align: center;
     }
 
+    .logodef{
+      display: none;
+    }
+
+    .logomob{
+      display: inline-block;
+      margin-top: auto;
+      margin-bottom: auto;
+      width: 16.67%;
+      height: inherit;
+      z-index: 1;
+    }
+    
+    
+    /* Her fucker det seg til */
+    @media only screen and (max-width: 410px){
+        
+        .NavElement{
+             font-size: 10px; 
+        }
+        
+    }
+    
+    @media only screen and (max-width: 255px){
+        .NavElement{
+            font-size: 5px; 
+        }
     }
