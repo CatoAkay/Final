@@ -1,4 +1,4 @@
-//copioert fra w3c må omskrives
+//copiert fra w3c må omskrives
 var imageIndex = 1;
 
 function indexPlus(n){
@@ -14,4 +14,6 @@ function showIndex(){
     x[imageIndex-1].style.display = "block";
     setTimeout(imageIndex++, 8000);
 }
+//omskrivning
+
 
