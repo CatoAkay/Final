@@ -125,7 +125,8 @@ label{
 }
 
 .mindre{
-    text-decoration: none;  
+    text-decoration: none;
+    border: solid 1px white; 
 }
 
 
@@ -158,6 +159,13 @@ aside *{
   margin: 0;
   padding: 0;
   vertical-align: top;
+}
+
+@media only screen and (max-width: 1465px){
+    
+    .lang{
+        font-size: 1.35em; 
+    }
 }
 
 /* For mobil og små skjermer!!!!! */
