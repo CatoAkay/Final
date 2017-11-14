@@ -35,8 +35,7 @@ header{
     width: 100%;
     height: 3em;
     margin: 0;
-    background-color: black;
-    opacity: 0.75;
+    background-color: rgba(0, 0, 0, 0.75);
     display: inline-flex;
     -webkit-justify-content: space-around; /* Safari 6.1+ */
     justify-content: space-around;
@@ -63,7 +62,18 @@ a {
   text-align: center;
   word-wrap: break-word;
 }
-
+label{
+  display: none;
+}
+#Burger{
+  display: none;
+}
+#toggle-1{
+  display: none;
+}
+#ghosttext{
+  display: none;
+}
 .lang {
     /*background-color: yellow;*/
 
@@ -135,15 +145,46 @@ aside *{
 
 /* For mobil og små skjermer!!!!! */
 @media only screen and (max-width: 768px) {
+  #Burger{
+    display: none;
+  }
 
+  label{
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 10%;
+    text-align: center;
+  }
 
     .lang{
         display: none;
     }
 
+    .NavElement{
+      display: none;
+    }
+
+    input[type="checkbox"]:checked ~ #ghosttext {
+      display: inline-block;
+      position: absolute;
+      margin-top: 3em;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.75);
+      width: 100%;
+      height: auto;
+      text-align: center;
+      opacity: 1;
+    }
+
+
+    .margin{
+      vertical-align: middle;
+    }
+
     .lang2{
       display: inline;
-      width: 16.67%;
+      width: 45%;
       text-align: right;
       margin-top: auto;
       margin-bottom: auto;
@@ -162,23 +203,152 @@ aside *{
       display: inline-block;
       margin-top: auto;
       margin-bottom: auto;
-      width: 16.67%;
+      width: 45%;
       height: inherit;
       z-index: 1;
     }
-    
-    
+
+
     /* Her fucker det seg til */
     @media only screen and (max-width: 410px){
-        
-        .NavElement{
-             font-size: 10px; 
+        #Burger{
+          display: none;
         }
-        
-    }
-    
+        .NavElement{
+             font-size: 10px;
+        }
+
+        label{
+          display: inline-block;
+          margin-top: auto;
+          margin-bottom: auto;
+          width: 10%;
+          text-align: center;
+        }
+
+          .lang{
+              display: none;
+          }
+
+          .NavElement{
+            display: none;
+          }
+
+          input[type="checkbox"]:checked ~ #ghosttext {
+            display: inline-block;
+            position: absolute;
+            margin-top: 3em;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.75);
+            width: 100%;
+            height: auto;
+            text-align: center;
+            opacity: 1;
+
+
+          }
+
+
+          .margin{
+          }
+          .lang2{
+            display: inline;
+            width: 45%;
+            text-align: right;
+            margin-top: auto;
+            margin-bottom: auto;
+            padding-right: 1%;
+          }
+
+          h1{
+              text-align: center;
+          }
+
+          .logodef{
+            display: none;
+          }
+
+          .logomob{
+            display: inline-block;
+            margin-top: auto;
+            margin-bottom: auto;
+            width: 45%;
+            height: inherit;
+            z-index: 1;
+          }
+}
+
     @media only screen and (max-width: 255px){
         .NavElement{
-            font-size: 5px; 
+            font-size: 5px;
         }
+
+
+        label{
+          display: inline-block;
+          margin-top: auto;
+          margin-bottom: auto;
+          width: 10%;
+          text-align: center;
+        }
+        #Meny{
+          display: none;
+        }
+        #Burger{
+          display: inline-block;
+          width: 100%;
+          height: auto;
+        }
+          .lang{
+              display: none;
+          }
+
+          .NavElement{
+            display: none;
+          }
+
+          input[type="checkbox"]:checked ~ #ghosttext {
+            display: inline-block;
+            position: absolute;
+            margin-top: 3em;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.75);
+            width: 100%;
+            height: auto;
+            text-align: center;
+            opacity: 1;
+
+
+          }
+
+
+          .margin{
+
+          }
+          .lang2{
+            display: inline;
+            width: 45%;
+            text-align: right;
+            margin-top: auto;
+            margin-bottom: auto;
+            padding-right: 1%;
+          }
+
+          h1{
+              text-align: center;
+          }
+
+          .logodef{
+            display: none;
+          }
+
+          .logomob{
+            display: inline-block;
+            margin-top: auto;
+            margin-bottom: auto;
+            width: 45%;
+            height: inherit;
+            z-index: 1;
+          }
+
     }
