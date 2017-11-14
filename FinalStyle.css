@@ -61,6 +61,7 @@ a {
   width: 16.67%;
   text-align: center;
   word-wrap: break-word;
+    text-decoration: none; 
 }
 label{
   display: none;
@@ -74,6 +75,8 @@ label{
 #ghosttext{
   display: none;
 }
+
+
 .lang {
     /*background-color: yellow;*/
 
@@ -109,6 +112,11 @@ label{
     margin-top: auto;
     margin-bottom: auto;
 
+}
+
+.mindre{
+    text-decoration: none; 
+    font-size: 0.8em; 
 }
 
 
