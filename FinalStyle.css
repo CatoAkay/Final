@@ -8,7 +8,7 @@ html, body {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: lightgrey; 
+    background-color: lightgrey;
 }
 
 h1{
@@ -19,7 +19,9 @@ h1{
 header{
   margin: 0;
 }
-
+#Burger{
+  display: none;
+}
 #placeholder{
   width: 100%;
   height: 5em;
@@ -40,7 +42,7 @@ header{
     display: inline-flex;
     -webkit-justify-content: space-around; /* Safari 6.1+ */
     justify-content: space-around;
-    z-index: 1;
+    z-index: 100;
   }
     /*nav'en må max være 20% av skjermens høyde. Burde ha mørk/svart, men transparent bakgrunn på nav'en*/
 
@@ -62,13 +64,13 @@ a {
   width: 16.67%;
   text-align: center;
   word-wrap: break-word;
-    
+
   text-decoration: none;
   border-radius: 5px;
-    border: 2px solid white; 
-  color: white; 
+    border: 2px solid white;
+  color: white;
     margin-right: 5px;
-    margin-left: 5px; 
+    margin-left: 5px;
 }
 label{
   display: none;
@@ -115,8 +117,8 @@ label{
 .sprakactive {
     background-color: darkred;
     padding-right: 0.5em;
-    padding-left: 0.5em; 
-    /*border: 2px solid darkred;*/  
+    padding-left: 0.5em;
+    /*border: 2px solid darkred;*/
     margin-top: auto;
     margin-bottom: auto;
 
@@ -124,7 +126,7 @@ label{
 
 .mindre{
     text-decoration: none;
-    border: solid 1px white; 
+    border: solid 1px white;
 }
 
 
@@ -132,6 +134,27 @@ label{
 
 
 /* Må få sectionen til å få inn elementene */
+.s0{
+width: 100vw;
+height: auto;
+}
+.b1{
+  display: block;
+  width: 100%;
+  height: 70vh;
+  z-index: 2;
+}
+.knapp1{
+text-decoration: none;
+width: 20%;
+margin-left: auto;
+margin-right: auto;
+border-radius: 5px;
+border: 2px solid white;
+color: white;
+z-index: 30;
+}
+
 .s1{
   width: 100%;
   height: auto;
@@ -160,16 +183,21 @@ aside *{
 }
 
 @media only screen and (max-width: 1465px){
-    
+
     .lang{
-        font-size: 1.35em; 
+        font-size: 1.35em;
+    }
+    #Burger{
+      display: none;
     }
 }
 
 /* For mobil og små skjermer!!!!! */
 @media only screen and (max-width: 1000px) {
   #Burger{
-    display: none;
+    display: inline-block;
+    width: 100%;
+    height: 3em;
   }
 
   label{
@@ -191,13 +219,14 @@ aside *{
     input[type="checkbox"]:checked ~ #ghosttext {
       display: inline-block;
       position: absolute;
-      margin-top: 3em;
+      margin-top: 5em;
       left: 0;
       background-color: rgba(0, 0, 0, 0.75);
       width: 100%;
       height: auto;
       text-align: center;
       opacity: 1;
+      z-index: 100;
     }
 
 
@@ -235,7 +264,9 @@ aside *{
     /* Her fucker det seg til */
     @media only screen and (max-width: 410px){
         #Burger{
-          display: none;
+          display: inline-block;
+          width: 100%;
+          height: 3em;
         }
         .NavElement{
              font-size: 10px;
@@ -260,13 +291,14 @@ aside *{
           input[type="checkbox"]:checked ~ #ghosttext {
             display: inline-block;
             position: absolute;
-            margin-top: 3em;
+            margin-top: 5em;
             left: 0;
             background-color: rgba(0, 0, 0, 0.75);
             width: 100%;
             height: auto;
             text-align: center;
             opacity: 1;
+            z-index: 100;
 
 
           }
@@ -314,13 +346,10 @@ aside *{
           width: 10%;
           text-align: center;
         }
-        #Meny{
-          display: none;
-        }
         #Burger{
           display: inline-block;
           width: 100%;
-          height: auto;
+          height: 3em;
         }
           .lang{
               display: none;
@@ -333,13 +362,14 @@ aside *{
           input[type="checkbox"]:checked ~ #ghosttext {
             display: inline-block;
             position: absolute;
-            margin-top: 3em;
+            margin-top: 5em;
             left: 0;
             background-color: rgba(0, 0, 0, 0.75);
             width: 100%;
             height: auto;
             text-align: center;
             opacity: 1;
+            z-index: 100;
 
 
           }
