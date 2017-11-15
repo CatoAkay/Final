@@ -135,14 +135,14 @@ label{
 
 /* Må få sectionen til å få inn elementene */
 .s0{
-width: 100%;
-height: 75%;
 }
 .b1{
   display: block;
-  width: inherit;
-  height: inherit;
+    height: 75vh; 
+    width: 100%; 
   background-image: url("TeaserUnical.jpg");
+    background-repeat: no-repeat; 
+    background-size: 100% 100%; 
 }
 .knapp1{
 text-decoration: none;
