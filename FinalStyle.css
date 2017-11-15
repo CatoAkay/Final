@@ -211,6 +211,48 @@ aside *{
   box-shadow:.2rem .2rem 1.5rem #888888;
 }
 
+/* Om oss */
+#omoss{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  height: auto;
+  margin-top: 5%;
+  box-shadow:.2rem .2rem 1.5rem #888888;
+}
+#omossbilde{
+  width: 30%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#personholder{
+  width: 100%;
+  margin-bottom: 12%;
+}
+#personholdersist{
+    width: 100%;
+    margin-bottom: 12%;
+    padding-bottom: 10%
+}
+#omossoverskrift{
+  text-align: center;
+  color: black;
+  margin: 0;
+  font-size: 4em;
+}
+#navn{
+  text-align: center;
+  color: black;
+}
+#omosstekst{
+    text-align: justify;
+    color: black;
+    margin-left: 15%;
+    margin-right: 15%;
+}
 @media only screen and (max-width: 1465px){
 
     .lang{
