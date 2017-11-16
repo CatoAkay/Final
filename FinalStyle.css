@@ -234,7 +234,18 @@ aside *{
   box-shadow:.2rem .2rem 1.5rem #888888;
 }
 /*Problemet*/
-
+.losningover{
+  text-align: center;
+  color: black;
+  margin: 0;
+  font-size: 3.5em;
+}
+.losningover2{
+  text-align: center;
+  color: black;
+  margin: 0;
+  font-size: 2.5em;
+}
 /* Løsningen */
 .Losningen{
     display: block;
@@ -253,7 +264,31 @@ padding-right: 10%;
 padding-left: 10%;
 padding-top: 5%;
 padding-bottom: 5%;
+text-align: left;
 }
+.losningtekst2{
+color: black;
+padding-right: 10%;
+padding-left: 10%;
+text-align: left;
+}
+.losningtekst3{
+  color: black;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-bottom: 5%;
+  text-align: left;
+  }
+.losningliste{
+  color: black;
+  margin-right: 10%;
+  margin-left: 10%;
+  text-align: left;
+}
+ul{
+  margin: 0;
+}
+
 /* Om oss */
 .omoss{
   display: block;
