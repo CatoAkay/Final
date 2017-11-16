@@ -194,9 +194,8 @@ aside *{
 .LinkerVidere{
   width: 100%;
   height: auto;
-  display: inline-block;
+  display: flex;
   margin-top: 2%;
-  padding: 0;
   margin-bottom: 2%;
 }
 .viderelink{
@@ -214,7 +213,8 @@ aside *{
     padding: 0;
 }
 
-.footerover{
+.footerover1, .footerover2, .footerover3{
+  flex: 1;
   display: inline-block;
   width: 30%;
   height: auto;
