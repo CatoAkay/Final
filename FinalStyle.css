@@ -84,7 +84,7 @@ label{
 .Burger{
   display: none;
 }
-.toggle-1{
+#toggle-1{
   display: none;
 }
 .ghosttext{
@@ -164,7 +164,7 @@ aside{
 
 .a1Para{
     font-size: 1.5em;
-    text-align: center; 
+    text-align: center;
 }
 
 aside *{
