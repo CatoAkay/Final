@@ -237,6 +237,18 @@ aside *{
   margin-top: 5%;
   box-shadow:.2rem .2rem 1.5rem #888888;
 }
+
+/*#body_container{
+    position: absolute;
+    top: 5em;
+    width: 100vw;
+    height: 80vh;
+    overflow: hidden;
+    overflow-y: auto;
+    
+}*/
+
+
 .omossbilde{
   width: 30%;
   height: auto;
