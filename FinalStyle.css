@@ -19,10 +19,10 @@ h1{
 header{
   margin: 0;
 }
-#Burger{
+.Burger{
   display: none;
 }
-#placeholder{
+.placeholder{
   width: 100%;
   height: 5em;
   margin: 0;
@@ -81,13 +81,13 @@ a {
 label{
   display: none;
 }
-#Burger{
+.Burger{
   display: none;
 }
-#toggle-1{
+.toggle-1{
   display: none;
 }
-#ghosttext{
+.ghosttext{
   display: none;
 }
 
@@ -162,11 +162,16 @@ aside{
   vertical-align: top;
 }
 
+.a1Para{
+    font-size: 1.5em;
+    text-align: center; 
+}
+
 aside *{
   color: black;
 }
 
-#Slideshow{
+.Slideshow{
   display: inline-block;
   width: 40%;
   height: 10%;
@@ -183,7 +188,7 @@ aside *{
   padding: 0;
   margin-bottom: 2%;
 }
-#viderelink{
+.viderelink{
   color:black;
 }
 .rad1, .rad2, .rad3{
@@ -212,7 +217,7 @@ aside *{
 }
 
 /* Om oss */
-#omoss{
+.omoss{
   display: block;
   margin-right: auto;
   margin-left: auto;
@@ -221,33 +226,33 @@ aside *{
   margin-top: 5%;
   box-shadow:.2rem .2rem 1.5rem #888888;
 }
-#omossbilde{
+.omossbilde{
   width: 30%;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-#personholder{
+.personholder{
   width: 100%;
   margin-bottom: 12%;
 }
-#personholdersist{
+.personholdersist{
     width: 100%;
     margin-bottom: 12%;
     padding-bottom: 10%
 }
-#omossoverskrift{
+.omossoverskrift{
   text-align: center;
   color: black;
   margin: 0;
   font-size: 4em;
 }
-#navn{
+.navn{
   text-align: center;
   color: black;
 }
-#omosstekst{
+.omosstekst{
     text-align: justify;
     color: black;
     margin-left: 15%;
@@ -258,14 +263,14 @@ aside *{
     .lang{
         font-size: 1.35em;
     }
-    #Burger{
+    .Burger{
       display: none;
     }
 }
 
 /* For mobil og små skjermer!!!!! */
 @media only screen and (max-width: 1000px) {
-  #Burger{
+  .Burger{
     display: inline-block;
     width: 100%;
     height: 3em;
@@ -287,7 +292,7 @@ aside *{
       display: none;
     }
 
-    input[type="checkbox"]:checked ~ #ghosttext {
+    input[type="checkbox"]:checked ~ .ghosttext {
       display: inline-block;
       position: absolute;
       margin-top: 5em;
@@ -334,7 +339,7 @@ aside *{
 
     /* Her fucker det seg til */
     @media only screen and (max-width: 410px){
-        #Burger{
+        .Burger{
           display: inline-block;
           width: 100%;
           height: 3em;
@@ -359,7 +364,7 @@ aside *{
             display: none;
           }
 
-          input[type="checkbox"]:checked ~ #ghosttext {
+          input[type="checkbox"]:checked ~ .ghosttext {
             display: inline-block;
             position: absolute;
             margin-top: 5em;
@@ -417,7 +422,7 @@ aside *{
           width: 10%;
           text-align: center;
         }
-        #Burger{
+        .Burger{
           display: inline-block;
           width: 100%;
           height: 3em;
@@ -430,7 +435,7 @@ aside *{
             display: none;
           }
 
-          input[type="checkbox"]:checked ~ #ghosttext {
+          input[type="checkbox"]:checked ~ .ghosttext {
             display: inline-block;
             position: absolute;
             margin-top: 5em;
