@@ -425,7 +425,28 @@ ul{
       z-index: 1;
     }
 
-
+@media only screen and (max-width: 900px) {
+.LinkerVidere{
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.footerover1, .footerover2, .footerover3{
+  flex: 1;
+  display: block;
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: top;
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+  box-shadow:.2rem .2rem 1.5rem #888888;
+}
+}
     /* Her fucker det seg til */
     @media only screen and (max-width: 410px){
         .Burger{
