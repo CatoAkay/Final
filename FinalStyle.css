@@ -133,6 +133,7 @@ label{
     background-color: darkred;
     padding-right: 0.5em;
     padding-left: 0.5em;
+    font-size: 1em;
     /*border: 2px solid darkred;*/
     margin-top: auto;
     margin-bottom: auto;
@@ -141,6 +142,7 @@ label{
 
 .mindre{
     text-decoration: none;
+    font-size: 1em;
 }
 
 
@@ -348,7 +350,7 @@ ul{
 
 
 .omossbilde{
-  width: 30%;
+  width: 30vw;
   height: auto;
   display: block;
   margin-left: auto;
@@ -495,7 +497,7 @@ ul{
 }
 .bildefrem{
   display: block;
-  width: 50%;
+  width: 75%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
