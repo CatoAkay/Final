@@ -208,6 +208,10 @@ aside *{
 .viderelink{
   color:black;
 }
+.viderelink:focus{
+  outline-color: red;
+  outline-style: ridge;
+}
 .rad1, .rad2, .rad3{
     display: inline-block;
     width: 40%;
