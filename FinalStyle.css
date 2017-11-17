@@ -119,6 +119,10 @@ label{
   height: inherit;
   z-index: 1;
 }
+.logodef:focus{
+  outline-color: red;
+  outline-style: ridge;
+}
 
 .logomob{
   display: none;
@@ -428,6 +432,10 @@ ul{
       height: inherit;
       z-index: 1;
     }
+    .logomob:focus{
+      outline-color: red;
+      outline-style: ridge;
+    }
 
 @media only screen and (max-width: 900px) {
 .LinkerVidere{
@@ -440,7 +448,7 @@ ul{
 .footerover1, .footerover2, .footerover3{
   flex: 1;
   display: block;
-  width: 90%;
+  width: 75%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -449,6 +457,26 @@ ul{
   list-style-type: none;
   padding: 0;
   box-shadow:.2rem .2rem 1.5rem #888888;
+}
+.a1{
+  display: block;
+  width: 75%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Slideshow{
+  display: block;
+  width: 75%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.s1{
+  width: 100%;
+  height: auto;
+  margin-top: 2%;
+  display: block;
 }
 }
     /* Her fucker det seg til */
@@ -521,6 +549,10 @@ ul{
             height: inherit;
             z-index: 1;
           }
+          .logomob:focus{
+            outline-color: red;
+            outline-style: ridge;
+          }
 }
 
     @media only screen and (max-width: 255px){
@@ -592,6 +624,10 @@ ul{
             width: 45%;
             height: inherit;
             z-index: 1;
+          }
+          .logomob{
+            outline-color: red;
+            outline-style: ridge;
           }
 
     }
