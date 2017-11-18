@@ -8,8 +8,8 @@
             var e = document.getElementById("pilvenstre");
             e.style.display = "block";
             document.getElementById("pilhøyre").style.display = "block";
-            document.getElementById("a4").style.display = "hidden";
-            document.getElementById("a5").style.display = "hidden";
+            document.getElementById("a4").style.display = "none";
+            document.getElementById("a5").style.display = "none";
         }
         function hidePicture(){
             
@@ -23,6 +23,7 @@
         
         function indexPlus(n){
             showIndex(imageIndex += n);
+            console.log(imageIndex + "'" + n);
         }
         
         
