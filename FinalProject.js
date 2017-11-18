@@ -6,10 +6,12 @@
         });
         function showPictures(){
             var e = document.getElementById("pilvenstre");
-            e.style.display = "block";
-            document.getElementById("pilhøyre").style.display = "block";
-            document.getElementById("a4").style.display = "none";
+            e.style.display = "inline-block";
+            document.getElementById("pilhøyre").style.display = "inline-block";
+            document.getElementById("a4").style.display = "block";
             document.getElementById("a5").style.display = "none";
+            document.getElementById("a6").style.display = "none";
+            document.getElementById("a7").style.display = "none";
         }
         function hidePicture(){
             
@@ -46,7 +48,7 @@
             }
         
             x[imageIndex-1].style.display = "block";
-            myTimer = setTimeout(function() { indexPlus(1) }, 9000);
+            myTimer = setTimeout(function() { indexPlus(1) }, 8000);
             
         }
         
