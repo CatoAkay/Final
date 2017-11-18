@@ -33,21 +33,21 @@
         
             clearTimeout(myTimer);
         
-            var x = document.getElementsByClassName("abc");
+            var bildene = document.getElementsByClassName("abc");
         
-            if(n>x.length){
+            if(n>bildene.length){
                 imageIndex = 1;
             }
             
-            if(n<1) imageIndex = x.length;
+            if(n<1) imageIndex = bildene.length;
             
-            for(i = 0; i < x.length; i++){
+            for(i = 0; i < bildene.length; i++){
         
-                x[i].style.display = "none";
+                bildene[i].style.display = "none";
         
             }
         
-            x[imageIndex-1].style.display = "block";
+            bildene[imageIndex-1].style.display = "block";
             myTimer = setTimeout(function() { indexPlus(1) }, 8000);
             
         }
