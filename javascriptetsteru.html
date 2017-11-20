@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="testforjs.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <style>
+    .mySlides {display:none;}
+    </style>
+</head>
+<body>
+<div class="w3-content w3-section" style="max-width:500px">
+    <img id="3" class="abc123" src="Dummy1080.png" alt="" style="width:100%">
+    <img id="4" class="abc" src="headerbg.jpg" alt="" style="width:100%">
+    <img id="5" class="abc" src="headerbg2.jpg" alt="" style="width:100%">
+
+    <button id="a1" class="w3-buttons w3-black w3-display-left" onclick="indexPlus(-1)">&#10094;</button>
+    <button id="a2" class="w3-buttons w3-black w3-display-right" onclick="indexPlus(1)">&#10095;</button>
+</div>
+   <script>
+
+document.addEventListener("DOMContentLoaded", function(event){ 
+hidePicture();
+showIndex(1);
+showPictures();
+
+});
+function showPictures(){
+    var e = document.getElementById("a1");
+    e.style.display = "inline-block";
+    document.getElementById("a2").style.display = "block";
+    document.getElementById("a4").style.display = "hidden";
+    document.getElementById("5").style.display = "hidden";
+}
+function hidePicture(){
+    
+    const image = document.getElementsByClassName("");
+    
+    image[0].style.display = "none"; 
+}
+
+var imageIndex = 1;
+var myTimer;
+
+function indexPlus(n){
+    showIndex(imageIndex += n);
+}
+
+
+function showIndex(n){
+
+    clearTimeout(myTimer);
+
+    var x = document.getElementsByClassName("abc");
+
+    if(n>x.length){
+        imageIndex = 1;
+    }
+    
+    if(n<1) imageIndex = x.length;
+    
+    for(i = 0; i < x.length; i++){
+
+        x[i].style.display = "none";
+
+    }
+
+    x[imageIndex-1].style.display = "block";
+    myTimer = setTimeout(function() { indexPlus(1) }, 12000);
+    
+}
+
+
+
+    </script>
+</body>
+</html>
