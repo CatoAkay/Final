@@ -389,6 +389,13 @@ ul{
     font-size: 1.5em;
 }
 
+.omosstekst2{
+    color: black; 
+    font-size: 1.3em; 
+    margin: 10px; 
+    text-align: center; 
+}
+
 @media only screen and (max-width: 1465px){
 
     .lang{
