@@ -23,7 +23,7 @@ h1{
 
 header{
   margin: 0;
-    height: 5em; 
+    height: 5em;
 }
 .Burger{
   display: none;
@@ -134,7 +134,7 @@ label{
   display: none;
 }
 .sprakactive {
-    background-color: chocolate; 
+    background-color: chocolate;
     padding-right: 0.5em;
     padding-left: 0.5em;
     font-size: 1em;
@@ -412,23 +412,23 @@ ul{
 
 /* For mobil og små skjermer!!!!! */
 @media only screen and (max-width: 1000px) {
-    
+
     nav {
-        position: static; 
-        background-color: black; 
+        position: static;
+        background-color: black;
     }
-    
+
     .placeholder {
-        display: none; 
+        display: none;
     }
-    
-    
-    
+
+
+
   .Burger{
     display: inline-block;
-    width: 100%;
-    height: 3em;
-      cursor: pointer; 
+    width: 40%;
+    height: auto;
+      cursor: pointer;
   }
 
   label{
@@ -459,14 +459,14 @@ ul{
       opacity: 1;
       z-index: 100;
     }
-    
+
     .mobileLinks {
         width:100%;
-        margin-top: 0.5em; 
-        font-size: 1.8em;  
+        margin-top: 0.5em;
+        font-size: 1.8em;
     }
-    
-    
+
+
 
     .margin{
       vertical-align: middle;
@@ -562,8 +562,8 @@ font-size: 2.5em;
 
       .Burger{
         display: inline-block;
-        width: 100%;
-        height: 3em;
+        width: 40%;
+        height: auto;
       }
       .NavElement{
            font-size: 10px;
@@ -656,8 +656,8 @@ font-size: 2.5em;
         }
         .Burger{
           display: inline-block;
-          width: 100%;
-          height: 3em;
+          width: 40%;
+          height: auto;
         }
           .lang{
               display: none;
