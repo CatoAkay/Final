@@ -134,11 +134,10 @@ label{
   display: none;
 }
 .sprakactive {
-    background-color: darkred;
+    background-color: chocolate; 
     padding-right: 0.5em;
     padding-left: 0.5em;
     font-size: 1em;
-    /*border: 2px solid darkred;*/
     margin-top: auto;
     margin-bottom: auto;
 
