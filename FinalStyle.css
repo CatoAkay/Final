@@ -23,6 +23,7 @@ h1{
 
 header{
   margin: 0;
+    height: 5em; 
 }
 .Burger{
   display: none;
@@ -412,6 +413,18 @@ ul{
 
 /* For mobil og små skjermer!!!!! */
 @media only screen and (max-width: 1000px) {
+    
+    nav {
+        position: static; 
+        background-color: black; 
+    }
+    
+    .placeholder {
+        display: none; 
+    }
+    
+    
+    
   .Burger{
     display: inline-block;
     width: 100%;
@@ -446,6 +459,14 @@ ul{
       opacity: 1;
       z-index: 100;
     }
+    
+    .mobileLinks {
+        width:100%;
+        margin-top: 0.5em; 
+        font-size: 1.8em;  
+    }
+    
+    
 
     .margin{
       vertical-align: middle;
