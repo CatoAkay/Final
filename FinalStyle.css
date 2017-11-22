@@ -2,7 +2,10 @@
 *{
     box-sizing: border-box;
     color: white;
-    outline: none;
+}
+*:focus{
+  outline-color: red;
+  outline-style: ridge;
 }
 
 html, body {
@@ -189,7 +192,6 @@ aside{
 .a1Para{
     font-size: 1.5em;
     text-align: left;
-    outline: none;
     flex: 1;
 }
 
@@ -392,10 +394,10 @@ ul{
 }
 
 .omosstekst2{
-    color: black; 
-    font-size: 1.3em; 
-    margin: 10px; 
-    text-align: center; 
+    color: black;
+    font-size: 1.3em;
+    margin: 10px;
+    text-align: center;
 }
 
 @media only screen and (max-width: 1465px){
@@ -444,7 +446,6 @@ ul{
       opacity: 1;
       z-index: 100;
     }
-
 
     .margin{
       vertical-align: middle;
