@@ -244,6 +244,30 @@ height: 75%;
   outline-color: red;
   outline-style: ridge;
 }
+.viderelinktop{
+  font-weight: bold;
+  color: black;
+  width: inherit;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1em;
+  margin-bottom: 1em;
+}
+.viderelinktop2{
+  font-weight: bold;
+  color: black;
+  width: inherit;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1em;
+  margin-bottom: 1em;
+}
+.viderelinktop:focus{
+  outline-color: red;
+  outline-style: ridge;
+}
 .rad1, .rad2, .rad3{
     display: inline-block;
     width: 40%;
