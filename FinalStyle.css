@@ -72,7 +72,6 @@ a:focus{
   font-size: 2em;
   width: 16.67%;
   text-align: center;
-  word-wrap: break-word;
 
   text-decoration: none;
   border-radius: 5px;
@@ -664,6 +663,18 @@ font-size: 2.5em;
         .losningtekst, .losningliste, .losningtekst2, .losningtekst3{
           font-size: 12px;
         }
+        .rad1, .rad2, .rad3{
+            display: inline-block;
+            width: -webkit-fill-available;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            vertical-align: top;
+            text-align: center;
+            list-style-type: none;
+            padding: 0;
+            padding-bottom: 2%;
+        }
         .omossoverskrift{
           font-size: 2em;
         }
@@ -706,10 +717,6 @@ font-size: 2.5em;
 
           }
 
-
-          .margin{
-
-          }
           .lang2{
             display: inline;
             width: 45%;
