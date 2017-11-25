@@ -731,7 +731,7 @@ font-size: 2.5em;
             height: inherit;
             z-index: 1;
           }
-          .logomob{
+          .logomob:focus{
             outline-color: red;
             outline-style: ridge;
           }
