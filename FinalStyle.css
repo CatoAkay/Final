@@ -191,6 +191,7 @@ aside{
     font-size: 1.5em;
     text-align: left;
     flex: 1;
+      line-height: 150%;
 }
 
 aside *{
@@ -306,9 +307,25 @@ height: 75%;
   margin: 0;
   font-size: 2.5em;
 }
+
+.losningover3{
+    text-align: center;
+  color: black;
+  margin: 0;
+  padding-top: 2%;
+    font-size: 2em; 
+    font-style: italic; 
+}
 #holder1{
   width: 100%;
   height: 5em;
+}
+
+.bilderP{
+    width: 50%; 
+    margin: auto;
+    display: block; 
+
 }
 /* Løsningen */
 .Losningen{
@@ -346,6 +363,14 @@ text-align: left;
   font-size: 1.5em;
   text-align: left;
   }
+.losningtekst123{
+      color: black;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-bottom: 5%;
+  font-size: 1em;
+  text-align: center; 
+}
 .losningliste{
   color: black;
   margin-right: 10%;
@@ -355,6 +380,12 @@ text-align: left;
 }
 ul{
   margin: 0;
+}
+
+.bilderL{
+    width: 50%; 
+    margin: auto; 
+    display: block; 
 }
 
 /* Om oss */
