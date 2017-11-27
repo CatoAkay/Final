@@ -484,7 +484,7 @@ footer {
 
 address{
     color: black; 
-    font-size: 5em; 
+    font-size: 2em; 
 }
 
 @media only screen and (max-width: 1465px){
