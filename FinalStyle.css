@@ -477,6 +477,16 @@ ul{
     text-align: center;
 }
 
+footer {
+    color: black;
+    text-align: center; 
+}
+
+address{
+    color: black; 
+    font-size: 5em; 
+}
+
 @media only screen and (max-width: 1465px){
 
     .lang{
