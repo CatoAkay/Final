@@ -298,7 +298,7 @@ padding-bottom: 10%;
 /*Problemet*/
 .textholderP1, .textholderP2, .textholderP3, .textholderP4{
   width: 100%;
-  margin-bottom: 15%;
+  margin-bottom: 5em;
 }
 .textholderPslutt{
   width: 100%;
@@ -338,6 +338,14 @@ padding-bottom: 10%;
     margin-top: 5%;
 }
 /* Løsningen */
+.textholderL1, .textholderL2, .textholderL3, .textholderL4{
+  width: 100%;
+  margin-bottom: 5em;
+}
+.textholderL5{
+ width: 100%;
+ padding-bottom: 1em;
+}
 .Losningen{
     display: block;
     background:white;
