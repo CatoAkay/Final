@@ -576,6 +576,28 @@ ul{
     }
 
 @media only screen and (max-width: 900px) {
+  .Losningen{
+      display: block;
+      background:white;
+      width:100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5%;
+      margin-bottom: 3%;
+      text-align: justify;
+      box-shadow:.2rem .2rem 1.5rem #888888;
+  }
+  .bilderP{
+      width: 75%;
+      margin: auto;
+      display: block;
+      margin-top: 5%;
+  }
+  .bilderL{
+      width: 75%;
+      margin: auto;
+      display: block;
+  }
 .LinkerVidere{
   width: 100%;
   height: auto;
