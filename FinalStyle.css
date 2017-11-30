@@ -486,7 +486,7 @@ ul{
   font-size: 2em;
 }
 .omosstekst{
-    text-align: justify;
+    text-align: left;
     color: black;
     margin-left: 15%;
     margin-right: 15%;
@@ -494,7 +494,7 @@ ul{
 }
 
 .omosstekst3{
-    text-align: center;
+    text-align: left;
     color: black;
     margin-left: 15%;
     margin-right: 15%;
@@ -502,9 +502,10 @@ ul{
 }
 .omosstekst2{
     color: black;
-    font-size: 1.3em;
-    margin: 10px;
-    text-align: center;
+    font-size: 1.5em;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: left;
 }
 
 footer {
@@ -704,7 +705,12 @@ font-size: 2.5em;
   font-size: 2em;
 }
 }
-    /* Her fucker det seg til */
+
+/*Må legge inn 500px skallering for om oss*/
+    @media only screen and (max-width: 500px){
+    }
+
+    
     @media only screen and (max-width: 410px){
       .b1{
       height: 50vh;
