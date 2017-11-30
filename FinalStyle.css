@@ -199,6 +199,8 @@ aside{
   height: auto;
   margin-left: 5%;
   margin-right: 5%;
+  margin-bottom: auto;
+  margin-top: auto;
   padding: 0;
   vertical-align: top;
   flex: 1;
