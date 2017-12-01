@@ -707,10 +707,16 @@ font-size: 2.5em;
 }
 
 /*Må legge inn 500px skallering for om oss*/
-    @media only screen and (max-width: 500px){
+    @media only screen and (max-width: 600px){
+      .omoss{
+        width: 75%;
+      }
+      .omossbilde{
+        width: 40vw;
+        height: auto;
     }
 
-    
+
     @media only screen and (max-width: 410px){
       .b1{
       height: 50vh;
@@ -797,6 +803,9 @@ font-size: 2.5em;
         .logomob:focus{
           outline-color: red;
           outline-style: ridge;
+        }
+        .omoss{
+          width: 100%;
         }
 }
 
