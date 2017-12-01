@@ -739,7 +739,9 @@ font-size: 2.5em;
       .NavElement, .sprakactive, .lang{
            font-size: 10px;
       }
-
+      .hiddenlabeltext{
+        display: none;
+      }
       label{
         display: inline-block;
         margin-top: auto;
