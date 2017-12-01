@@ -2,6 +2,8 @@
         hidePicture();
         showIndex(1);
         showPictures();
+        document.getElementById("pilvenstre").onclick = function(){indexPlus(-1)};
+        document.getElementById("pilhøyre").onclick = function(){indexPlus(1)};
         
         });
         function showPictures(){
