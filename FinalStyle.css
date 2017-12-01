@@ -369,7 +369,7 @@ padding-right: 10%;
 }
 .textholderL5{
  width: 100%;
- padding-bottom: 1em;
+ padding-bottom: 2em;
 }
 .Losningen{
     display: block;
@@ -494,7 +494,7 @@ ul{
 }
 
 .omosstekst3{
-    text-align: left;
+    text-align: center;
     color: black;
     margin-left: 15%;
     margin-right: 15%;
@@ -516,6 +516,9 @@ footer {
 address{
     color: black;
     font-size: 2em;
+}
+.hiddenlabeltext{
+  display: none;
 }
 
 @media only screen and (max-width: 1465px){
@@ -581,12 +584,13 @@ address{
       position: absolute;
       margin-top: 5em;
       left: 0;
-      background-color: rgba(0, 0, 0, 0.75);
+      background-color: rgba(0, 0, 0, 1);
       width: 100%;
       height: auto;
       text-align: center;
-      opacity: 1;
+
       z-index: 100;
+      padding-bottom: 1em;
     }
 
     .mobileLinks {
@@ -707,10 +711,15 @@ font-size: 2.5em;
 }
 
 /*Må legge inn 500px skallering for om oss*/
-    @media only screen and (max-width: 500px){
+    @media only screen and (max-width: 600px){
+      .omoss{
+        width: 75%;
+      }
+      .omossbilde{
+        width: 40vw;
+        height: auto;
     }
 
-    
     @media only screen and (max-width: 410px){
       .b1{
       height: 50vh;
@@ -755,12 +764,13 @@ font-size: 2.5em;
           position: absolute;
           margin-top: 5em;
           left: 0;
-          background-color: rgba(0, 0, 0, 0.75);
+          background-color: rgba(0, 0, 0, 1);
           width: 100%;
           height: auto;
           text-align: center;
-          opacity: 1;
+
           z-index: 100;
+          padding-bottom: 1em;
         }
 
         .margin{
@@ -798,12 +808,16 @@ font-size: 2.5em;
           outline-color: red;
           outline-style: ridge;
         }
+        .omoss{
+          width: 100%;
+        }
 }
 
     @media only screen and (max-width: 300px){
         .NavElement{
             font-size: 5px;
         }
+
         .losningover{
         font-size: 20px;
         }
@@ -857,12 +871,13 @@ font-size: 2.5em;
             position: absolute;
             margin-top: 5em;
             left: 0;
-            background-color: rgba(0, 0, 0, 0.75);
+            background-color: rgba(0, 0, 0, 1);
             width: 100%;
             height: auto;
             text-align: center;
-            opacity: 1;
+
             z-index: 100;
+            padding-bottom: 1em;
 
 
           }
