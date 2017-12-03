@@ -41,8 +41,7 @@ nav{
 	margin: 0;
 	background-color: rgba(0, 0, 0, 1);
 	display: inline-flex;
-	-webkit-justify-content: space-around;
-
+	-webkit-justify-content: space-around; /*Fallback*/
 	justify-content: space-around;
 	z-index: 100;
 }
