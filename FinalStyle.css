@@ -449,14 +449,25 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 }
-.personholder{
+.personholder, .personholdersist{
 width: 100%;
 margin-bottom: 15%
 }
-.personholdersist{
+.contactus{
 width: 100%;
 margin-bottom: 12%;
-padding-bottom: 10%
+margin-left: auto;
+margin-right: auto;
+padding-bottom: 10%;
+color: #000000;
+}
+#mail{
+	color: blue;
+}
+hr{
+	background-color: black;
+	height: 5px;
+	margin-bottom: 15%;
 }
 .omossoverskrift{
 text-align: center;
