@@ -1,233 +1,208 @@
-/* For alle sider*/
+
 *{
-    box-sizing: border-box;
-    color: white;
+	box-sizing: border-box;
+	color: #FFFFFF;
 }
 *:focus{
-  outline-color: red;
-  outline-style: ridge;
+	outline-color: #FF0000;
+	outline-style: ridge;
 }
-
 html, body {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: white;
-    font-family: arial;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #FFFFFF;
+	font-family: arial;
 }
-
 h1{
-  text-align: center;
-  font-size: 5em;
+	text-align: center;
+	font-size: 5em;
 }
-
 header{
-  margin: 0;
-    height: 5em;
+	margin: 0;
+	height: 5em;
 }
 .Burger{
-  display: none;
+	display: none;
 }
 .placeholder{
-  width: 100%;
-  height: 5em;
-  margin: 0;
-  background-color: black;
-  top: 0;
-  z-index: 0;
+	width: 100%;
+	height: 5em;
+	margin: 0;
+	background-color: #000000;
+	top: 0;
+	z-index: 0;
+}
+nav{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 5em;
+	margin: 0;
+	background-color: rgba(0, 0, 0, 1);
+	display: inline-flex;
+	-webkit-justify-content: space-around;
+
+	justify-content: space-around;
+	z-index: 100;
 }
 
-  nav{
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    height: 5em;
-    margin: 0;
-    background-color: rgba(0, 0, 0, 1);
-    display: inline-flex;
-    -webkit-justify-content: space-around; /* Safari 6.1+ */
-    justify-content: space-around;
-    z-index: 100;
-  }
-    /*nav'en må max være 20% av skjermens høyde. Burde ha mørk/svart, men transparent bakgrunn på nav'en*/
-
 }
-
 a {
-  display: inline-block;
-  margin-top: auto;
-  margin-bottom: auto;
-  font-size: 1em;
-  width: 16.67%;
+display: inline-block;
+margin-top: auto;
+margin-bottom: auto;
+font-size: 1em;
+width: 16.67%;
 }
 a:focus{
-  outline-color: red;
-  outline-style: ridge;
+outline-color: #FF0000;
+outline-style: ridge;
 }
 .NavElement{
-  display: inline-block;
-  margin-top: auto;
-  margin-bottom: auto;
-  font-size: 2em;
-  width: 15%;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 5px;
-  border: 2px solid white;
-  color: white;
-  margin-right: 5px;
-  margin-left: 5px;
+display: inline-block;
+margin-top: auto;
+margin-bottom: auto;
+font-size: 2em;
+width: 15%;
+text-align: center;
+text-decoration: none;
+border-radius: 5px;
+border: 2px solid white;
+color: #FFFFFF;
+margin-right: 5px;
+margin-left: 5px;
 }
-
 .NavElement:hover{
-    background-color: white;
-    color: black;
-    border-color: black;
+background-color: #FFFFFF;
+color: #000000;
+border-color: #000000;
 }
 .NavElement:focus{
-    background-color: white;
-    color: black;
-    border-color: black;
+background-color: #FFFFFF;
+color: #000000;
+border-color: #000000;
 }
 label{
-  display: none;
+display: none;
 }
 .Burger{
-  display: none;
+display: none;
 }
 #toggle-1{
-  display: none;
+display: none;
 }
 .ghosttext{
-  display: none;
+display: none;
 }
-
-
 .lang {
-    /*background-color: yellow;*/
 
-    display: inline-block;
-    margin-top: auto;
-    margin-bottom: auto;
-    width: 20%;
-    text-align: right;
-    padding-right: 1%;
+display: inline-block;
+margin-top: auto;
+margin-bottom: auto;
+width: 20%;
+text-align: right;
+padding-right: 1%;
 }
-
 .lang2 {
-    display: none;
+display: none;
 }
-
 .logodef{
-  display: inline-block;
-  padding-bottom: 1.5em;
-  padding-top: 1.5em;
-  padding-left: 1%;
-  padding-right: 1%;
-  width: 10%;
-  height: inherit;
-  z-index: 1;
+display: inline-block;
+padding-bottom: 1.5em;
+padding-top: 1.5em;
+padding-left: 1%;
+padding-right: 1%;
+width: 10%;
+height: inherit;
+z-index: 1;
 }
 .logodef:focus{
-  outline-color: red;
-  outline-style: ridge;
+outline-color: #FF0000;
+outline-style: ridge;
 }
-
 .logomob{
-  display: none;
+display: none;
 }
 .sprakactive {
-    background-color: chocolate;
-    padding-right: 0.5em;
-    padding-left: 0.5em;
-    font-size: 2em;
-    margin-top: auto;
-    margin-bottom: auto;
-
+background-color: #D2691E;
+padding-right: 0.5em;
+padding-left: 0.5em;
+font-size: 2em;
+margin-top: auto;
+margin-bottom: auto;
 }
-
 .mindre{
-    text-decoration: none;
-    font-size: 2em;
+text-decoration: none;
+font-size: 2em;
 }
-
 .mindre:hover {
-    border-radius: 5px;
-    border: solid white 2px;
-    color: black;
-    background-color: white;
+border-radius: 5px;
+border: solid white 2px;
+color: #000000;
+background-color: #FFFFFF;
 }
 .mindre:focus {
-    border-radius: 5px;
-    border: solid white 2px;
-    color: black;
-    background-color: white;
+border-radius: 5px;
+border: solid white 2px;
+color: #000000;
+background-color: #FFFFFF;
 }
-
-
-/*Hjemsiden*/
-
-
 
 .b1{
-  display: block;
-    height: 75vh;
-    width: 100%;
-    box-shadow: inset 20px 20px 5px #111111;
+display: block;
+height: 75vh;
+width: 100%;
+box-shadow: inset 20px 20px 5px #111111;
 }
-
 .shadow {
-    position: absolute;
-    width: 100%;
-    height: 75vh;
-    box-shadow: 3px 3px 10px 0 #000000;
-    top: 0;
-    left: 0;
-    margin-top: 5em;
+position: absolute;
+width: 100%;
+height: 75vh;
+box-shadow: 3px 3px 10px 0 #000000;
+top: 0;
+left: 0;
+margin-top: 5em;
 }
-
-.s1 /*MÅ ORDNE @MEDIA */{
-  width: 100%;
-  height: auto;
-  margin-top: 2%;
-  display: flex;
+.s1
+{
+width: 100%;
+height: auto;
+margin-top: 2%;
+display: flex;
 }
-
 aside{
-  display: inline-block;
-  width: 40%;
-  height: auto;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: auto;
-  margin-top: auto;
-  padding: 0;
-  vertical-align: top;
-  flex: 1;
+display: inline-block;
+width: 40%;
+height: auto;
+margin-left: 5%;
+margin-right: 5%;
+margin-bottom: auto;
+margin-top: auto;
+padding: 0;
+vertical-align: top;
+flex: 1;
 }
-
 .a1Para{
-    font-size: 1.5em;
-    text-align: left;
-    flex: 1;
-      line-height: 150%;
+font-size: 1.5em;
+text-align: left;
+flex: 1;
+line-height: 150%;
 }
-
 aside *{
-  color: black;
+color: #000000;
 }
-
 .defaultslide{
-  display: block;
-  width: 100%;
-  height: 75%;
-  margin-top: 7.5%;
-  margin-bottom: 7.5%;
-  padding-top: 10%;
-  padding-bottom: 10%;
+display: block;
+width: 100%;
+height: 75%;
+margin-top: 7.5%;
+margin-bottom: 7.5%;
+padding-top: 10%;
+padding-bottom: 10%;
 }
 #a4, #a5, #a6, #a7{
-  display: none;
+display: none;
 }
 #a4, #a5, #a6, #a7{
 width: 100%;
@@ -236,182 +211,179 @@ padding-left: 10%;
 padding-right: 10%;
 }
 .bildefrem{
-  display: block;
-  width: 50%;
-  height: 100%;
-  margin-top: auto;
-  margin-bottom: auto;
+display: block;
+width: 50%;
+height: 100%;
+margin-top: auto;
+margin-bottom: auto;
 }
 #pointerholder{
-  width: 100%;
-  height: 45%;
-  margin: 0;
-  padding: 0;
+width: 100%;
+height: 45%;
+margin: 0;
+padding: 0;
 }
 #pilhøyre{
-  width: 30%;
-  margin-left: 20%;
-  height: 20%;
-  cursor:pointer;
-  border:none;
-  z-index: 0;
-  background-color: transparent;
-  padding: 0;
+width: 30%;
+margin-left: 20%;
+height: 20%;
+cursor:pointer;
+border:none;
+z-index: 0;
+background-color: transparent;
+padding: 0;
 }
 #bildepilhøyre{
-  width: 80%;
-  height: auto;
-  cursor:pointer;
-  border:none;
-  z-index: 200;
-  margin: 0;
+width: 80%;
+height: auto;
+cursor:pointer;
+border:none;
+z-index: 200;
+margin: 0;
 }
 #pilvenstre{
-  width: 30%;
-  margin-right: 20%;
-  height: 20%;
-  cursor:pointer;
-  border:none;
-  z-index: 0;
-  background-color: transparent;
-  padding: 0;
+width: 30%;
+margin-right: 20%;
+height: 20%;
+cursor:pointer;
+border:none;
+z-index: 0;
+background-color: transparent;
+padding: 0;
 }
 #bildepilvenstre{
-  width: 80%;
-  height: auto;
-  cursor:pointer;
-  border:none;
-  z-index: 200;
-  margin: 0;
+width: 80%;
+height: auto;
+cursor:pointer;
+border:none;
+z-index: 200;
+margin: 0;
 }
 .LinkerVidere{
-  width: 100%;
-  height: auto;
-  display: flex;
-  margin-top: 2%;
-  margin-bottom: 2%;
+width: 100%;
+height: auto;
+display: flex;
+margin-top: 2%;
+margin-bottom: 2%;
 }
 .viderelink{
-  color:black;
+color: #000000;
 }
 .viderelink:focus{
-  outline-color: red;
-  outline-style: ridge;
+outline-color: #FF0000;
+outline-style: ridge;
 }
 .viderelinktop{
-  font-weight: bold;
-  color: black;
-  width: inherit;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 1em;
-  margin-bottom: 1em;
+font-weight: bold;
+color: #000000;
+width: inherit;
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding-top: 1em;
+margin-bottom: 1em;
 }
 .viderelinktop2{
-  font-weight: bold;
-  color: black;
-  width: inherit;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 1em;
-  margin-bottom: 1em;
+font-weight: bold;
+color: #000000;
+width: inherit;
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding-top: 1em;
+margin-bottom: 1em;
 }
 .viderelinktop:focus{
-  outline-color: red;
-  outline-style: ridge;
+outline-color: #FF0000;
+outline-style: ridge;
 }
 .rad1, .rad2, .rad3{
-    display: inline-block;
-    width: 40%;
-    height: auto;
-    margin-left: 1.66%;
-    margin-right: 1.66%;
-    vertical-align: top;
-    text-align: center;
-    list-style-type: none;
-    padding: 0;
-    padding-bottom: 2%;
+display: inline-block;
+width: 40%;
+height: auto;
+margin-left: 1.66%;
+margin-right: 1.66%;
+vertical-align: top;
+text-align: center;
+list-style-type: none;
+padding: 0;
+padding-bottom: 2%;
+}
+.footerover1, .footerover2, .footerover3{
+flex: 1;
+display: inline-block;
+width: 30%;
+height: auto;
+margin-left: 1.66%;
+margin-right: 1.66%;
+vertical-align: top;
+text-align: center;
+list-style-type: none;
+padding: 0;
+box-shadow:.2rem .2rem 1.5rem #888888;
 }
 
-.footerover1, .footerover2, .footerover3{
-  flex: 1;
-  display: inline-block;
-  width: 30%;
-  height: auto;
-  margin-left: 1.66%;
-  margin-right: 1.66%;
-  vertical-align: top;
-  text-align: center;
-  list-style-type: none;
-  padding: 0;
-  box-shadow:.2rem .2rem 1.5rem #888888;
-}
-/*Problemet*/
 .textholderP1, .textholderP2, .textholderP3, .textholderP4{
-  width: 100%;
-  margin-bottom: 5em;
+width: 100%;
+margin-bottom: 5em;
 }
 .textholderPslutt{
-  width: 100%;
-  padding-bottom: 1em;
+width: 100%;
+padding-bottom: 1em;
 }
 .losningover{
-  text-align: center;
-  color: black;
-  margin: 0;
-  padding-top: 1rem;
-  font-size: 3.5em;
+text-align: center;
+color: #000000;
+margin: 0;
+padding-top: 1rem;
+font-size: 3.5em;
 }
 .losningover2{
-  text-align: center;
-  color: black;
-  margin: 0;
-  font-size: 2.5em;
+text-align: center;
+color: #000000;
+margin: 0;
+font-size: 2.5em;
 }
-
 .losningover3{
-    text-align: center;
-  color: black;
-  margin: 0;
-  padding-top: 2%;
-    font-size: 2em;
-    font-style: italic;
+text-align: center;
+color: #000000;
+margin: 0;
+padding-top: 2%;
+font-size: 2em;
+font-style: italic;
 }
 #holder1{
-  width: 100%;
-  height: 5em;
+width: 100%;
+height: 5em;
+}
+.bilderP{
+width: 70%;
+margin: auto;
+display: block;
+margin-top: 5%;
 }
 
-.bilderP{
-    width: 70%;
-    margin: auto;
-    display: block;
-    margin-top: 5%;
-}
-/* Løsningen */
 .textholderL1, .textholderL2, .textholderL3, .textholderL4{
-  width: 100%;
-  margin-bottom: 5em;
+width: 100%;
+margin-bottom: 5em;
 }
 .textholderL5{
- width: 100%;
- padding-bottom: 2em;
+width: 100%;
+padding-bottom: 2em;
 }
 .Losningen{
-    display: block;
-    background:white;
-    width:60%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    margin-bottom: 3%;
-    text-align: justify;
-    box-shadow:.2rem .2rem 1.5rem #888888;
+display: block;
+background: #FFFFFF;
+width:60%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 5%;
+margin-bottom: 3%;
+text-align: justify;
+box-shadow:.2rem .2rem 1.5rem #888888;
 }
 .losningtekst{
-color: black;
+color: #000000;
 padding-right: 10%;
 padding-left: 10%;
 padding-top: 5%;
@@ -420,520 +392,458 @@ font-size: 1.5em;
 text-align: left;
 }
 .losningtekst2{
-color: black;
+color: #000000;
 padding-right: 10%;
 padding-left: 10%;
 font-size: 1.5em;
 text-align: left;
 }
 .losningtekst3{
-  color: black;
-  padding-right: 10%;
-  padding-left: 10%;
-  padding-bottom: 5%;
-  font-size: 1.5em;
-  text-align: left;
-  }
+color: #000000;
+padding-right: 10%;
+padding-left: 10%;
+padding-bottom: 5%;
+font-size: 1.5em;
+text-align: left;
+}
 .losningtekst123{
-      color: black;
-  padding-right: 10%;
-  padding-left: 10%;
-  padding-bottom: 5%;
-  font-size: 1em;
-  text-align: center;
+color: #000000;
+padding-right: 10%;
+padding-left: 10%;
+padding-bottom: 5%;
+font-size: 1em;
+text-align: center;
 }
 .losningliste{
-  color: black;
-  margin-right: 10%;
-  margin-left: 10%;
-  font-size: 1.5em;
-  text-align: left;
+color: #000000;
+margin-right: 10%;
+margin-left: 10%;
+font-size: 1.5em;
+text-align: left;
 }
 ul{
-  margin: 0;
+margin: 0;
 }
-
 .bilderL{
-    width: 70%;
-    margin: auto;
-    display: block;
-    margin-top: 3em;
+width: 70%;
+margin: auto;
+display: block;
+margin-top: 3em;
 }
 
-/* Om oss */
 .omoss{
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  width: 50%;
-  height: auto;
-  margin-top: 5%;
-  box-shadow:.2rem .2rem 1.5rem #888888;
+display: block;
+margin-right: auto;
+margin-left: auto;
+width: 50%;
+height: auto;
+margin-top: 5%;
+box-shadow:.2rem .2rem 1.5rem #888888;
 }
-
-/*#body_container{
-    position: absolute;
-    top: 5em;
-    width: 100vw;
-    height: 80vh;
-    overflow: hidden;
-    overflow-y: auto;
-
-}*/
-
 
 .omossbilde{
-  width: 20vw;
-  height: auto;
-  border: 5px;
-  border-color: black;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+width: 20vw;
+height: auto;
+border: 5px;
+border-color: #000000;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 .personholder{
-  width: 100%;
-  margin-bottom: 15%
+width: 100%;
+margin-bottom: 15%
 }
 .personholdersist{
-    width: 100%;
-    margin-bottom: 12%;
-    padding-bottom: 10%
+width: 100%;
+margin-bottom: 12%;
+padding-bottom: 10%
 }
 .omossoverskrift{
-  text-align: center;
-  color: black;
-  margin: 0;
-  font-size: 4em;
-  padding-top: 3%;
-  padding-bottom: 3%;
+text-align: center;
+color: #000000;
+margin: 0;
+font-size: 4em;
+padding-top: 3%;
+padding-bottom: 3%;
 }
 .navn{
-  text-align: center;
-  color: black;
-  font-size: 2em;
+text-align: center;
+color: #000000;
+font-size: 2em;
 }
 .omosstekst{
-    text-align: left;
-    color: black;
-    margin-left: 15%;
-    margin-right: 15%;
-    font-size: 1.5em;
+text-align: left;
+color: #000000;
+margin-left: 15%;
+margin-right: 15%;
+font-size: 1.5em;
 }
-
 .omosstekst3{
-    text-align: center;
-    color: black;
-    margin-left: 15%;
-    margin-right: 15%;
-    font-size: 1.5em;
+text-align: center;
+color: #000000;
+margin-left: 15%;
+margin-right: 15%;
+font-size: 1.5em;
 }
 .omosstekst2{
-    color: black;
-    font-size: 1.5em;
-    margin-left: 15%;
-    margin-right: 15%;
-    text-align: left;
+color: #000000;
+font-size: 1.5em;
+margin-left: 15%;
+margin-right: 15%;
+text-align: left;
 }
-
 footer {
-    color: black;
-    text-align: center;
+color: #000000;
+text-align: center;
 }
-
 address{
-    color: black;
-    font-size: 2em;
+color: #000000;
+font-size: 2em;
 }
 .hiddenlabeltext{
-  display: none;
+display: none;
 }
-
 @media only screen and (max-width: 1465px){
-
-
-    .Burger{
-      display: none;
-    }
+.Burger{
+	display: none;
 }
-
+}
 @media only screen and (max-width: 1185px){
-  .lang{
-      display: none;
-  }
-  .lang2{
-    display: inline;
-    width: 15%;
-    text-align: right;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding-right: 1%;
-  }
+.lang{
+	display: none;
 }
-/* For mobil og små skjermer!!!!! */
+.lang2{
+	display: inline;
+	width: 15%;
+	text-align: right;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-right: 1%;
+}
+}
+
 @media only screen and (max-width: 1000px) {
-
-    nav {
-        position: static;
-        background-color: black;
-    }
-
-    .placeholder {
-        display: none;
-    }
-
-
-
-  .Burger{
-    display: inline-block;
-    width: 40%;
-    height: 1.5em;
-      cursor: pointer;
-  }
-
-  label{
-    display: inline-block;
-    margin-top: auto;
-    margin-bottom: auto;
-    width: 10%;
-    text-align: center;
-  }
-
-    .lang{
-        display: none;
-    }
-
-    .NavElement{
-      display: none;
-    }
-
-    input[type="checkbox"]:checked ~ .ghosttext {
-      display: inline-block;
-      position: absolute;
-      margin-top: 5em;
-      left: 0;
-      background-color: rgba(0, 0, 0, 1);
-      width: 100%;
-      height: auto;
-      text-align: center;
-
-      z-index: 100;
-      padding-bottom: 1em;
-    }
-
-    .mobileLinks {
-        width:100%;
-        margin-top: 0.5em;
-        font-size: 1.8em;
-    }
-
-
-
-    .margin{
-      vertical-align: middle;
-    }
-
-    .lang2{
-      display: inline;
-      width: 45%;
-      text-align: right;
-      margin-top: auto;
-      margin-bottom: auto;
-      font-size: 1em;
-      padding-right: 1%;
-    }
-
-    .logodef{
-      display: none;
-    }
-
-    .logomob{
-      display: inline-block;
-      width: 45%;
-      padding-left: 15%;
-      padding-right: 15%;
-      padding-top: 1.5em;
-      padding-bottom: 1.5em;
-      height: inherit;
-      z-index: 1;
-    }
-    .logomob:focus{
-      outline-color: red;
-      outline-style: ridge;
-    }
-
+nav {
+	position: static;
+	background-color: #000000;
+}
+.placeholder {
+	display: none;
+}
+.Burger{
+	display: inline-block;
+	width: 40%;
+	height: 1.5em;
+	cursor: pointer;
+}
+label{
+	display: inline-block;
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 10%;
+	text-align: center;
+}
+.lang{
+	display: none;
+}
+.NavElement{
+	display: none;
+}
+input[type="checkbox"]:checked ~ .ghosttext {
+	display: inline-block;
+	position: absolute;
+	margin-top: 5em;
+	left: 0;
+	background-color: rgba(0, 0, 0, 1);
+	width: 100%;
+	height: auto;
+	text-align: center;
+	z-index: 100;
+	padding-bottom: 1em;
+}
+.mobileLinks {
+	width:100%;
+	margin-top: 0.5em;
+	font-size: 1.8em;
+}
+.margin{
+	vertical-align: middle;
+}
+.lang2{
+	display: inline;
+	width: 45%;
+	text-align: right;
+	margin-top: auto;
+	margin-bottom: auto;
+	font-size: 1em;
+	padding-right: 1%;
+}
+.logodef{
+	display: none;
+}
+.logomob{
+	display: inline-block;
+	width: 45%;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	height: inherit;
+	z-index: 1;
+}
+.logomob:focus{
+	outline-color: #FF0000;
+	outline-style: ridge;
+}
 @media only screen and (max-width: 900px) {
-  .Losningen{
-      display: block;
-      background:white;
-      width:100%;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 5%;
-      margin-bottom: 3%;
-      text-align: justify;
-      box-shadow:.2rem .2rem 1.5rem #888888;
-  }
-  .bilderP{
-      width: 75%;
-      margin: auto;
-      display: block;
-      margin-top: 5%;
-  }
-  .bilderL{
-      width: 75%;
-      margin: auto;
-      display: block;
-  }
-.LinkerVidere{
-  width: 100%;
-  height: auto;
-  display: block;
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
-.footerover1, .footerover2, .footerover3{
-  flex: 1;
-  display: block;
-  width: 75%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  vertical-align: top;
-  text-align: center;
-  list-style-type: none;
-  padding: 0;
-  box-shadow:.2rem .2rem 1.5rem #888888;
-}
-.a1{
-  display: block;
-  width: 75%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
-.defaultslide{
-  display: block;
-  width: 100%;
-  height: auto;
-}
-.bildefrem{
-  display: block;
-  width: 75%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
-.s1{
-  width: 100%;
-  height: auto;
-  margin-top: 2%;
-  display: block;
-}
-.losningover{
-font-size: 2.5em;
-}
-.losningover2{
-  font-size: 2em;
-}
-}
-
-/*Må legge inn 500px skallering for om oss*/
-    @media only screen and (max-width: 600px){
-      .omoss{
-        width: 75%;
-      }
-      .omossbilde{
-        width: 40vw;
-        height: auto;
-    }
-
-    @media only screen and (max-width: 410px){
-      .b1{
-      height: 50vh;
-      }
-      .shadow{
-        height: 50vh;
-      }
-      .losningover{
-      font-size: 2em;
-      }
-      .losningover2{
-        font-size: 1.5em;
-      }
-
-      .Burger{
-        display: inline-block;
-        width: 40%;
-        height: 1em;
-      }
-      .NavElement, .sprakactive, .lang{
-           font-size: 10px;
-      }
-
-      label{
-        display: inline-block;
-        margin-top: auto;
-        margin-bottom: auto;
-        width: 10%;
-        text-align: center;
-      }
-
-        .lang{
-            display: none;
-        }
-
-        .NavElement{
-          display: none;
-        }
-
-        input[type="checkbox"]:checked ~ .ghosttext {
-          display: inline-block;
-          position: absolute;
-          margin-top: 5em;
-          left: 0;
-          background-color: rgba(0, 0, 0, 1);
-          width: 100%;
-          height: auto;
-          text-align: center;
-
-          z-index: 100;
-          padding-bottom: 1em;
-        }
-
-        .margin{
-        }
-        .lang2{
-          display: inline;
-          width: 45%;
-          text-align: right;
-          margin-top: auto;
-          margin-bottom: auto;
-          padding-right: 1%;
-        }
-
-        .logodef{
-          display: none;
-        }
-
-        .logomob{
-          display: inline-block;
-          margin-top: auto;
-          margin-bottom: auto;
-          width: 45%;
-          padding-left: 10%;
-          padding-right: 10%;
-          padding-top: 2em;
-          padding-bottom: 2em;
-          height: inherit;
-          z-index: 1;
-        }
-        .mindre, .sprakactive{
-          font-size: 1em;
-        }
-
-        .logomob:focus{
-          outline-color: red;
-          outline-style: ridge;
-        }
-        .omoss{
-          width: 100%;
-        }
+	.Losningen{
+		display: block;
+		background: #FFFFFF;
+		width:100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 5%;
+		margin-bottom: 3%;
+		text-align: justify;
+		box-shadow:.2rem .2rem 1.5rem #888888;
+	}
+	.bilderP{
+		width: 75%;
+		margin: auto;
+		display: block;
+		margin-top: 5%;
+	}
+	.bilderL{
+		width: 75%;
+		margin: auto;
+		display: block;
+	}
+	.LinkerVidere{
+		width: 100%;
+		height: auto;
+		display: block;
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
+	.footerover1, .footerover2, .footerover3{
+		flex: 1;
+		display: block;
+		width: 75%;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+		vertical-align: top;
+		text-align: center;
+		list-style-type: none;
+		padding: 0;
+		box-shadow:.2rem .2rem 1.5rem #888888;
+	}
+	.a1{
+		display: block;
+		width: 75%;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.defaultslide{
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+	.bildefrem{
+		display: block;
+		width: 75%;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.s1{
+		width: 100%;
+		height: auto;
+		margin-top: 2%;
+		display: block;
+	}
+	.losningover{
+		font-size: 2.5em;
+	}
+	.losningover2{
+		font-size: 2em;
+	}
 }
 
-    @media only screen and (max-width: 300px){
-        .NavElement{
-            font-size: 5px;
-        }
-
-        .losningover{
-        font-size: 20px;
-        }
-        .losningover2{
-          font-size: 15px;
-        }
-        .losningtekst, .losningliste, .losningtekst2, .losningtekst3{
-          font-size: 12px;
-        }
-        .rad1, .rad2, .rad3{
-            display: inline-block;
-            width: -webkit-fill-available;
-            height: auto;
-            margin-left: auto;
-            margin-right: auto;
-            vertical-align: top;
-            text-align: center;
-            list-style-type: none;
-            padding: 0;
-            padding-bottom: 2%;
-        }
-        .omossoverskrift{
-          font-size: 2em;
-        }
-        .omosstekst{
-            font-size: 12px;
-          }
-
-        label{
-          display: inline-block;
-          margin-top: auto;
-          margin-bottom: auto;
-          width: 10%;
-          text-align: center;
-        }
-        .Burger{
-          display: inline-block;
-          width: 40%;
-          height: 1em;
-        }
-          .lang{
-              display: none;
-          }
-
-          .NavElement{
-            display: none;
-          }
-
-          input[type="checkbox"]:checked ~ .ghosttext {
-            display: inline-block;
-            position: absolute;
-            margin-top: 5em;
-            left: 0;
-            background-color: rgba(0, 0, 0, 1);
-            width: 100%;
-            height: auto;
-            text-align: center;
-
-            z-index: 100;
-            padding-bottom: 1em;
-
-
-          }
-
-          .lang2{
-            display: inline;
-            width: 45%;
-            text-align: right;
-            margin-top: auto;
-            margin-bottom: auto;
-            padding-right: 1%;
-          }
-
-          .logodef{
-            display: none;
-          }
-
-          .logomob{
-            display: inline-block;
-            margin-top: auto;
-            margin-bottom: auto;
-            width: 45%;
-            height: inherit;
-            z-index: 1;
-          }
-          .logomob:focus{
-            outline-color: red;
-            outline-style: ridge;
-          }
-
-    }
+@media only screen and (max-width: 600px){
+	.omoss{
+		width: 75%;
+	}
+	.omossbilde{
+		width: 40vw;
+		height: auto;
+	}
+	@media only screen and (max-width: 410px){
+		.b1{
+			height: 50vh;
+		}
+		.shadow{
+			height: 50vh;
+		}
+		.losningover{
+			font-size: 2em;
+		}
+		.losningover2{
+			font-size: 1.5em;
+		}
+		.Burger{
+			display: inline-block;
+			width: 40%;
+			height: 1em;
+		}
+		.NavElement, .sprakactive, .lang{
+			font-size: 10px;
+		}
+		label{
+			display: inline-block;
+			margin-top: auto;
+			margin-bottom: auto;
+			width: 10%;
+			text-align: center;
+		}
+		.lang{
+			display: none;
+		}
+		.NavElement{
+			display: none;
+		}
+		input[type="checkbox"]:checked ~ .ghosttext {
+			display: inline-block;
+			position: absolute;
+			margin-top: 5em;
+			left: 0;
+			background-color: rgba(0, 0, 0, 1);
+			width: 100%;
+			height: auto;
+			text-align: center;
+			z-index: 100;
+			padding-bottom: 1em;
+		}
+		.margin{
+		}
+		.lang2{
+			display: inline;
+			width: 45%;
+			text-align: right;
+			margin-top: auto;
+			margin-bottom: auto;
+			padding-right: 1%;
+		}
+		.logodef{
+			display: none;
+		}
+		.logomob{
+			display: inline-block;
+			margin-top: auto;
+			margin-bottom: auto;
+			width: 45%;
+			padding-left: 10%;
+			padding-right: 10%;
+			padding-top: 2em;
+			padding-bottom: 2em;
+			height: inherit;
+			z-index: 1;
+		}
+		.mindre, .sprakactive{
+			font-size: 1em;
+		}
+		.logomob:focus{
+			outline-color: #FF0000;
+			outline-style: ridge;
+		}
+		.omoss{
+			width: 100%;
+		}
+	}
+	@media only screen and (max-width: 300px){
+		.NavElement{
+			font-size: 5px;
+		}
+		.losningover{
+			font-size: 20px;
+		}
+		.losningover2{
+			font-size: 15px;
+		}
+		.losningtekst, .losningliste, .losningtekst2, .losningtekst3{
+			font-size: 12px;
+		}
+		.rad1, .rad2, .rad3{
+			display: inline-block;
+			width: -webkit-fill-available;
+			height: auto;
+			margin-left: auto;
+			margin-right: auto;
+			vertical-align: top;
+			text-align: center;
+			list-style-type: none;
+			padding: 0;
+			padding-bottom: 2%;
+		}
+		.omossoverskrift{
+			font-size: 2em;
+		}
+		.omosstekst{
+			font-size: 12px;
+		}
+		label{
+			display: inline-block;
+			margin-top: auto;
+			margin-bottom: auto;
+			width: 10%;
+			text-align: center;
+		}
+		.Burger{
+			display: inline-block;
+			width: 40%;
+			height: 1em;
+		}
+		.lang{
+			display: none;
+		}
+		.NavElement{
+			display: none;
+		}
+		input[type="checkbox"]:checked ~ .ghosttext {
+			display: inline-block;
+			position: absolute;
+			margin-top: 5em;
+			left: 0;
+			background-color: rgba(0, 0, 0, 1);
+			width: 100%;
+			height: auto;
+			text-align: center;
+			z-index: 100;
+			padding-bottom: 1em;
+		}
+		.lang2{
+			display: inline;
+			width: 45%;
+			text-align: right;
+			margin-top: auto;
+			margin-bottom: auto;
+			padding-right: 1%;
+		}
+		.logodef{
+			display: none;
+		}
+		.logomob{
+			display: inline-block;
+			margin-top: auto;
+			margin-bottom: auto;
+			width: 45%;
+			height: inherit;
+			z-index: 1;
+		}
+		.logomob:focus{
+			outline-color: #FF0000;
+			outline-style: ridge;
+		}
+	}
